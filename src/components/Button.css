@@ -1,0 +1,22 @@
+.button {
+   padding: 10px;
+   border-radius: 6px;
+   border: none;
+   font-size: 20px;
+   cursor: pointer;
+   background-color: #eee;
+}
+
+.button:hover {
+    background-color: #440b15;
+    color: white;
+    transition: 0.2s;
+}
+
+.operator {
+    background-color: tomato;
+}
+
+.big-button {
+    grid-column: 1 / 3;
+}
